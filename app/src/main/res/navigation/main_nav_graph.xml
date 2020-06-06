@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homefrag">
+
+    <fragment
+        android:id="@+id/homefrag"
+        android:name="com.shivam.feedfull_ngo.homefrag"
+        android:label="fragment_h_o_m_e"
+        tools:layout="@layout/fragment_h_o_m_e" />
+    <fragment
+        android:id="@+id/NEEDS"
+        android:name="com.shivam.feedfull_ngo.NEEDS"
+        android:label="fragment_n_e_e_d_s"
+        tools:layout="@layout/fragment_n_e_e_d_s" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.shivam.feedfull_ngo.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/accepted"
+        android:name="com.shivam.feedfull_ngo.accepted"
+        android:label="fragment_accepted"
+        tools:layout="@layout/fragment_accepted" />
+</navigation>
